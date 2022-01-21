@@ -1,6 +1,8 @@
 import os
 from random import randint
 
+import flask
+
 from dash import Dash
 from layout import layout
 from callbacks import get_callbacks
