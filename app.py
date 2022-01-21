@@ -8,4 +8,4 @@ app.layout = layout
 get_callbacks(app)
 
 if __name__ == '__main__':
-   app.run_server(debug=True)
+   app.server.run(debug=True, threaded=True)
