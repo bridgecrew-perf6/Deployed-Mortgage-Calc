@@ -1,3 +1,6 @@
+import os
+from random import randint
+
 from dash import Dash
 from layout import layout
 from callbacks import get_callbacks
