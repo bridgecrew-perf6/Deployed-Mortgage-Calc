@@ -3,7 +3,10 @@ from random import randint
 
 import flask
 
-from dash import Dash
+import dash
+from dash.dependencies import Input, Output, State, Event
+import dash_core_components as dcc
+import dash_html_components as html
 from layout import layout
 from callbacks import get_callbacks
 
